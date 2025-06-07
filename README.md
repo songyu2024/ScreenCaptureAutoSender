@@ -1,60 +1,63 @@
 <div align="right">
-  <a href="#english">English</a> | <a href="#中文">中文</a> | <a href="#日本語">日本語</a>
+  <a href="#english">English</a> | <a href="#chinese">中文</a>
 </div>
 
 ---
 
-## <a name="english"></a>📷 Screen Tool (C++ Visual Studio Project)
-
-This repository contains a Windows C++ project named **screen**, designed for Visual Studio 2022+. It supports both `x86` and `x64` platforms, and includes both **Debug** and **Release** configurations.
-
-### 📁 Structure
-- `screen.sln` — Visual Studio Solution file
-- `screen/screen.vcxproj` — Main C++ project
-
-### ⚙️ Features (Expected or Planned)
-- Lightweight screen capturing
-- Possibly used as a module for stealth automation or hotkey-triggered actions (e.g. screenshot, auto-send)
-
-### 🚀 Build
-Open in Visual Studio 2022+, choose your configuration (Debug/Release) and platform (x86/x64), then build.
+<h1 align="center">🎯 Stealth Screen Automation Tool</h1>
+<p align="center">
+  A silent cheating tool with screen capture and automated delivery.<br>
+  无窗口、无指针移动的隐秘截图并投送工具。
+</p>
 
 ---
 
-## <a name="中文"></a>📷 屏幕工具（C++ Visual Studio 项目）
+## <a name="english"></a>📌 Description (English)
 
-此仓库是一个基于 Visual Studio 的 Windows C++ 项目，项目名称为 **screen**，支持 `x86` 与 `x64` 平台，并提供 **Debug** 与 **Release** 构建配置。
+This project is a stealth automation tool written in C++ for Windows (Visual Studio). It performs screen capturing and data delivery with no visible interface or cursor movement. It's tailored for full-screen applications like Tencent Yuanbao (on screen 2).
 
-### 📁 项目结构
-- `screen.sln` — Visual Studio 解决方案文件
-- `screen/screen.vcxproj` — 主 C++ 项目文件
+### 🛠 Features
+- Press <kbd>Home</kbd> → Turn screen 2 black
+- Press <kbd>Insert</kbd> →  
+  ⤷ Capture **screen 1**  
+  ⤷ Send image to **screen 2**, targeting Tencent Yuanbao in fullscreen  
+  ⤷ Wait **1.5 seconds**  
+  ⤷ Auto-press <kbd>Enter</kbd>  
+  ⤷ **No windows or mouse movement** occurs during execution
+- Press <kbd>End</kbd> → Exit the program
 
-### ⚙️ 功能（已实现或规划中）
-- 轻量级屏幕截图功能
-- 用作隐藏自动化模块，如快捷键触发截图、自动发送等操作
+### 💻 Build & Run
+- Open `screen.sln` in **Visual Studio 2022+**
+- Build for `x64` (recommended) in `Release` mode
+- Run with admin privileges if needed
 
-### 🚀 编译方式
-使用 Visual Studio 2022 及以上版本打开，选择对应构建配置（Debug/Release）和平台（x86/x64）后构建。
-
----
-
-## <a name="日本語"></a>📷 スクリーンツール（C++ Visual Studio プロジェクト）
-
-このリポジトリには、Visual Studio 向けの Windows C++ プロジェクト **screen** が含まれています。`x86` と `x64` プラットフォームの両方に対応し、**Debug** および **Release** 構成が用意されています。
-
-### 📁 構成
-- `screen.sln` — Visual Studio ソリューションファイル
-- `screen/screen.vcxproj` — メインの C++ プロジェクトファイル
-
-### ⚙️ 主な機能（実装済みまたは予定）
-- 軽量なスクリーンキャプチャ機能
-- ホットキーで起動する自動化処理（例：スクリーンショット、送信）などに利用可能
-
-### 🚀 ビルド方法
-Visual Studio 2022 以上で開き、構成（Debug/Release）とプラットフォーム（x86/x64）を選択してビルドしてください。
+> ⚠️ Disclaimer: This software is intended for educational purposes only. Use it at your own risk.
 
 ---
 
-<div align="center">
-  <sub>README written in 🇬🇧 English | 🇨🇳 中文 | 🇯🇵 日本語</sub>
-</div>
+## <a name="chinese"></a>📌 项目简介（中文）
+
+这是一个用于 Windows 的 C++ 编写的隐秘自动化工具，主要功能是在无窗口、无鼠标移动的情况下执行屏幕截图并发送至全屏运行的 **腾讯元宝** 等程序。
+
+### 🛠 功能介绍
+- <kbd>Home</kbd> → 使副屏（屏幕2）黑屏
+- <kbd>Insert</kbd> →  
+  ⤷ 从主屏（屏幕1）截图  
+  ⤷ 将截图发送至副屏（屏幕2）上的全屏腾讯元宝  
+  ⤷ 延迟 **1.5 秒**  
+  ⤷ 自动执行 <kbd>回车</kbd>  
+  ⤷ **全程无窗口弹出，也不移动鼠标**
+- <kbd>End</kbd> → 退出程序
+
+### 💻 编译与运行
+- 使用 **Visual Studio 2022 或更高版本** 打开 `screen.sln`
+- 建议选择 `x64` 平台并使用 `Release` 模式编译
+- 运行程序时可能需管理员权限
+
+> ⚠️ 注意：本程序仅供学习用途，请自行承担使用风险。
+
+---
+
+<p align="center">
+  <sub>🖥️ Made for stealth. Designed for silence.</sub>
+</p>
